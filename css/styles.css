@@ -1,0 +1,286 @@
+﻿	body {
+		background: url(../images/bluebg.jpg) no-repeat center center fixed;
+		-webkit-background-size: cover;
+	    -moz-background-size: cover;
+	    -o-background-size: cover;
+	    background-size: cover;		
+		margin:2% 6%;
+		font-family: " Segoe UI", Tahoma, Geneva, Verdana, sans-serif; 				
+		color: #0000A0;
+	 }
+	 
+	.bluebg {
+		background-color: #B0E0E6; /* Powdered blue */					
+		padding: 10px 20px;
+		border-radius: 25px;
+				
+	}
+	
+	#leagueTable {
+		float:right;
+		margin-top:10px;
+		margin-bottom:60px;				
+		background-color:  #87CEEB; 	/*DeepSkyBlue #00BFFF;*/  /* SkyBlue #87CEEB; */ 				
+	}
+	
+	#leagueTable p {
+		text-align:center;
+		font-size:small;		
+	}
+	
+	.clubDetails{
+		text-align:center;
+	}
+
+	#leftpanel {
+		float: left;		
+		width: 15%;	  	
+	}
+	
+	#maincontent{
+		width: 70%;		
+		float: left;				
+	}
+	
+	#rightpanel {
+	 	float: right;
+	 	width: 15%;	  	
+	}
+	
+	#basicCube { 
+		width: 75px; 
+		height: 56px;  
+		margin-left: 70px; 
+		margin-top:10px; 
+		float:left;				
+	}
+	
+	#rightHeader{
+		float:right; 
+		width:200px; 
+		height:70px; 
+		margin-right: 70px;
+	}
+	
+	#titleHeader {
+		margin: 0 auto; 
+		width: 50%;
+		padding-top: 5px; 
+		padding-bottom:9px;
+	}
+		
+	#titleHeader h1 {
+		background: url(../images/bluebg.jpg) no-repeat center center fixed;
+		-webkit-background-size: cover;
+	    -moz-background-size: cover;
+	    -o-background-size: cover;
+	    background-size: cover;		
+		border-radius: 15px;
+		font-family:Georgia, Tahoma, Geneva, Verdana, sans-serif; 
+	   	font-weight: 1000;
+		font-size: 3.em;		
+		color: #FFFF00;		
+	}
+	
+	#topLinks{
+		text-align:center;		
+		font-size:0.8em;
+	}
+	
+	#topLinks a{
+		text-decoration: underline;
+	}
+
+	#twitter {
+        background-color:#87CEEB;		
+	}
+	
+	#feed {
+		background-color:#87CEEB;
+		width:75%;
+		//height:20%;
+				
+	}
+	
+	#feedleft {
+		background-color:#87CEEB;
+		width:100%;				
+	}
+
+	#feedmargin{
+		padding: 0px 10px 10px;
+		margin-bottom:30px;
+		//height:20%;
+	}
+	
+	.contactText{
+		text-align:left;
+		padding-left:10%;
+	}
+	
+	#feed h2 {		
+		background-color: #336699;
+	    font-weight: 500;
+		font-size: 1.2em;		
+		padding-left:1.2%;
+		color: #FFFF00;
+	}
+	
+	#feedleft h2 {		
+		background-color: #336699;
+	    font-weight: 300;
+		font-size: 1em;		
+		padding-left:1.2%;
+		color: #FFFF00;
+	}
+		
+	h4 {
+		padding-left:40px;
+		padding-right:40px;
+	}
+	
+	#fixtureList table{	
+		width:75%;
+		background-color:#87CEEB;
+		border-radius: 30px;		
+		margin-bottom:10px;		
+	}
+	
+	#fixtureList td{
+		padding:8px 0px;	
+		color:#87CEEB;
+		font-family:Verdana, Geneva, Tahoma, sans-serif;
+		font-weight:bold;
+		font-size: 0.8em;	
+	}
+
+	
+	.gameweek {
+		text-align:center;
+		font-size: large;
+	}
+
+	#eloTable {
+	border: 1px;
+	background-color:#FFFFFF;		    	    	    
+	}
+	
+	#imageRotator {
+	    height:400px;
+	    width:600px;
+	}
+	
+	#imageRotator div {
+	    position:absolute;
+	    z-index: 0;
+	}
+	#imageRotator div.previous {
+	    z-index: 1;
+	}
+	
+	#imageRotator div.current {
+	    z-index: 2;
+	}
+	
+	#footer {
+		clear: left;
+	  	width: 100%;				
+  		color: #0000A0;
+  		font-size:small;
+		text-align: center;		
+		padding: 4px 0%;
+		margin-top:40px;
+	}
+		 
+ 	a {
+		text-decoration:none;
+	}
+	
+	a.mailto {
+    	background: url(../images/email.png) no-repeat 100% 2px;    
+	}
+	
+	.important_text {
+	outline-style: inherit;
+	outline-color: #000066;
+	outline-width: 1px;
+	}
+	.important_text_alt {
+	text-shadow: Teal;
+	}
+
+	#radio .ui-radio .ui-widget-content { border: none; } 
+	
+	.ui-buttonset .ui-button {
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	font-size: 0.75em;	
+	margin:-9px 0px 15px;	
+	}
+	
+	#windowsList th,td {
+	font-family:"Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	font-size: 13px;
+	color: #FF0000;
+	width:70px;	
+	}
+	
+	#windowsList tr {
+	border: 1px solid navy;
+	}
+	
+	#windowsList td {
+	text-align:center;
+	}
+	
+	#windowsList th {
+	background-color:#D7CEFF;
+	color:#003366;
+	}
+	
+	#windowsList table {
+	border: 1pt solid navy;
+	}
+	
+	#windowsList .clickable {
+	cursor:pointer;
+	}
+	
+	#windowsList .stripe1 {
+	background-color:#736AFF;
+	}
+	
+	#windowsList .stripe2 {
+	background-color:#A59CFF;
+	}
+	
+	#windowsList .highlight {
+	background-color:#0000FF;
+	font-weight:bold;
+	}
+	
+	#statOutput h1{
+	background: url(../images/darkbluebg.jpg) no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;		
+	border-radius: 15px;
+	font-family:Verdana, Geneva, Tahoma, sans-serif; 
+	font-weight: 1000;
+	font-size: 2.6em;		
+	color: #FFFF00;		
+	width:180px; 
+	text-align:center;   
+	}
+	
+	#eloOutput{
+	font-family:Georgia, Tahoma, Geneva, Verdana, sans-serif; 
+	font-weight: 1000;
+	font-size: 1.4em;		
+	color:#643EBF;			
+		
+}
+
+	
+	
